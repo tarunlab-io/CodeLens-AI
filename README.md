@@ -75,23 +75,3 @@ streamlit run app.py
 5. (Optional) Click **Improve Code** to receive suggestions for better readability and maintainability.
 6. (Optional) Click **Optimize Code** to see if the algorithm can be made more efficient in terms of time or space complexity.
 
-## Screenshots
-
-<!-- Add screenshots here -->
-*(Screenshots will be placed here)*
-
-## Recruitment Task Mapping
-
-This project is built to fulfill all requirements for the second-year engineering technical recruitment task.
-
-**Mandatory Requirements:**
-- **Allow users to paste code:** Implemented using Streamlit's `st.text_area` in `app.py`.
-- **Explain what the code does & how it works:** Handled via the "Explain Code" prompt and LLM service, displayed clearly in the UI.
-- **Time/Space complexity:** Specifically requested in the prompt and mapped to Pydantic schemas, displayed prominently.
-- **Important functions/variables:** Extracted by the LLM and displayed in structured Streamlit expanders.
-- **Structured format:** LLM output is strictly forced into structured JSON using `google-genai` and parsed into clean UI sections.
-
-**Bonus Requirements (All 3 Implemented):**
-1. **Support multiple programming languages:** A dropdown selects Python, C++, Java, or JavaScript. The choice is injected into every LLM prompt to ensure language-specific analysis.
-2. **Add an "Improve this code" option:** Implemented as a separate button and service function (`improve_code`), focusing on readability and best practices.
-3. **Add an option to generate a more optimized version:** Implemented as a distinct "Optimize Code" button and service function (`optimize_code`), focusing on algorithmic efficiency.
