@@ -1,7 +1,7 @@
 # CodeLens AI
 
 ## Overview
-CodeLens AI is a powerful Generative AI application designed to explain, improve, and optimize programming code in beginner-friendly language. It acts as an interactive developer tool to help students and professionals better understand logic and algorithmic complexity.
+CodeLens AI is a Generative AI–powered developer tool designed to analyze, explain, enhance, and optimize source code in clear, accessible language. It provides interactive insights into program logic, identifies potential improvements, and helps users understand algorithmic complexity, making it a practical solution for both aspiring developers and experienced professionals.
 
 ## Features
 - **AI Code Explanation**: Breaks down complex code into simple, beginner-friendly concepts.
