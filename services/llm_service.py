@@ -14,7 +14,7 @@ class LLMService:
         
         # Initialize the GenAI client
         self.client = genai.Client(api_key=self.api_key)
-        self.model_name = 'gemini-2.5-flash' # Using flash for faster, cost-effective processing
+        self.model_name = 'gemini-3.6-flash' # Using 3.6-flash as required by the 2026 API update
     
     def explain_code(self, code: str, language: str) -> ExplanationResponse:
         prompt = EXPLAIN_PROMPT.format(language=language, code=code)
